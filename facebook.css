@@ -1,0 +1,144 @@
+div{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    margin: 0px;
+    background-color: #F2F4F7;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    gap: 40px;
+    padding: 0 100px;
+   align-items: center;
+   margin-top: 50px;
+}
+.form input::placeholder{
+    font-size: 16px;
+    color: #b3b3b3;
+    padding-left: 16px;
+}
+.right{
+    flex: 1;
+    /* margin: 40px 0px 0px;
+    padding: 20px 0 28px;
+    height: 456px;
+    width: 396px; */
+    
+}
+.left{
+    flex: 1;
+    /* margin: 250px; */
+}
+.left h1{
+    color: #0866ff;
+    font-size: 60px;
+    margin: 0px;
+        }
+.left p {
+    font-size: 28px;
+    width: 500px;
+    margin-top: 10px;
+        }
+.login{
+    color: white;
+    background-color: #0866ff;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 100%;
+    height: 52px;
+    padding: 5px;
+    font-weight: bold;
+    border: 1px solid #dddfe2;
+}
+.creataccount button {
+    color: white;
+    background-color: #42b72a;
+    width: 192px;
+    height: 48px;
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #dddfe2;
+    margin-left: 90px;
+    
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #b3b3b3;
+    justify-content: center;
+    /* background-color: lightblue; */
+    width: 396px;
+    /* align-items: center; */
+    /* background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 350px;
+    padding-bottom: 24px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    margin: 40px 0px 0px ; */
+}
+.email{
+    width: 100%;
+    height: 52px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+hr{
+    width: 100%;
+    border: 1px solid #ddd;
+}
+.pass{
+    width: 100%;
+    height: 52px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.forgottenpass{
+    text-decoration: none;
+    color: #0866ff;
+}
+.forgottenpass:hover{
+    text-decoration: underline;
+}
+
+.create-page {
+    font-size: 14px;
+    color: #222;
+    text-align: start;
+    margin-top: 10px;
+    margin-left: 90px;
+}
+
+.create-page a {
+    color: inherit;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.create-page a:hover {
+    text-decoration: underline;
+}
+input{
+    /* font-size: 17px;
+    padding: 14px 16px;
+    width: 330px; */
+    border: 1px solid #dddfe2;
+}
+.right form .forgottenpass, 
+.right form .createaccount {
+    text-align: center;
+}
